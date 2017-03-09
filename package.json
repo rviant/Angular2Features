@@ -1,0 +1,26 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "Creating a Manual Project and files to inmplement all the features i can from angular2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rviant/Angular2Features.git"
+  },
+  "author": "Rodolfo Viant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rviant/Angular2Features/issues"
+  },
+  "homepage": "https://github.com/rviant/Angular2Features#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}
