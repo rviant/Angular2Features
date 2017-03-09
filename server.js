@@ -21,6 +21,7 @@ server.listen(port, hostname, () => {
 /*Express Server Starts Here*/
 var express = require('express')
 var app = express()
+var mongoose = require('mongoose')
 var config = require('./server/config/config')
 
 /*ROUTES*/
@@ -39,4 +40,4 @@ app.listen(config.port, function(){
 	console.log("Server listening on port "+ config.port+"!")
 })
 
-
+mongoose.connect(config.connectionString)
